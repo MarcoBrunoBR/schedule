@@ -1,0 +1,15 @@
+{
+  "name": "schedule",
+  "version": "1.0.0",
+  "description": "Rest API from schule to opensource event",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/MarcoBrunoBR/schedule.git"
+  },
+  "author": "Marco Bruno",
+  "license": "MPL-2.0"
+}
