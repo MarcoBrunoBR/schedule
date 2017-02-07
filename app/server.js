@@ -1,5 +1,5 @@
-const express = require('express')
-const app = express()
+const CustomExpress = require('./CustomExpress')
+const app = new CustomExpress()
 const port = 3000
 
 app.listen(port, () => {
