@@ -1,6 +1,6 @@
 const ScheduleController = require('../controllers/ScheduleController');
 
-function ApiRoutes(app) {
+let ApiRoutes = function(app) {
   this._app = app
   this._scheduleController = new ScheduleController();
 

@@ -1,4 +1,4 @@
-var ScheduleController = function() {}
+let ScheduleController = function() {}
 
 ScheduleController.prototype.getAll = function(req, res) {
   res.json({schedule : [
