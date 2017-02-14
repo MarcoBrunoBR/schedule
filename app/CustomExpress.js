@@ -1,4 +1,4 @@
-let CustomExpress = function() {
+ function CustomExpress() {
   this.app = require('express')()
 
   require('./routes/ApiRoutes')(this.app)
