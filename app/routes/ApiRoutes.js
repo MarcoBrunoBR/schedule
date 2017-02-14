@@ -1,10 +1,9 @@
 const ScheduleController = require('../controllers/ScheduleController');
 
-let ApiRoutes = function(app) {
+ function ApiRoutes(app) {
   this._app = app
-  this._scheduleController = new ScheduleController();
 
-  this._app.get('/api/all', this._scheduleController.getAll)
+  this._app.get('/api/all', ScheduleController.getAll)
 }
 
 module.exports = ApiRoutes

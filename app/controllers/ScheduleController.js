@@ -1,4 +1,4 @@
-let ScheduleController = function() {}
+function ScheduleController() {}
 
 ScheduleController.prototype.getAll = function(req, res) {
   res.json({schedule : [
@@ -41,4 +41,4 @@ ScheduleController.prototype.getAll = function(req, res) {
   ]})
 }
 
-module.exports = ScheduleController
+module.exports = new ScheduleController();
