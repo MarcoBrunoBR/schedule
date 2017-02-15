@@ -1,11 +1,11 @@
-let TalkController = function() {}
+ function TalkController() {}
 
 TalkController.prototype.show = function(req, res) {
-  res.send('Form')
+  res.render('talk/new')
 }
 
 TalkController.prototype.add = function(req, res) {
   res.send('Added a new talk')
 }
 
-module.exports = TalkController
+module.exports = new TalkController();

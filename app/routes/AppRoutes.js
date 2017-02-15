@@ -1,11 +1,10 @@
 const TalkController = require('../controllers/TalkController')
 
-let AppRoutes = function (app) {
+function AppRoutes(app) {
   this._app = app
-  this._talk = new TalkController()
 
-  this._app.get('/talk/new', this._talk.show)
-  this._app.post('/talk/new', this._talk.add)
+  this._app.get('/talk/new', TalkController.show)
+  this._app.post('/talk/new', TalkController.add)
 }
 
 module.exports = AppRoutes

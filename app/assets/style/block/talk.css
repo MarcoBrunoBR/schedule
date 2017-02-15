@@ -1,0 +1,12 @@
+.talk {
+  width: 12vw;
+  height: 12vw;
+  line-height: 12vw;
+  background-color: var(--color-yellow);
+  text-align: center;
+  margin-bottom: 2vw;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-family: 'Lato';
+  color: var(--color-white);
+}
