@@ -22,8 +22,6 @@
   height: 32px;
   border-radius: 50%;
   background-color: var(--color-green);
-  transition: 100ms transform linear;
-  will-change: transform;
   display: block;
   position: absolute;
   z-index: 2;
@@ -34,10 +32,6 @@
 .menuTalk-item-action_isDisable {
   opacity: 0;
   transition: 150ms opacity linear;
-}
-
-.menuTalk-item-action:hover {
-  transform: scale(1.05);
 }
 
 .menuTalk-subItem-item {
