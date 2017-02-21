@@ -1,12 +1,48 @@
-.talk {
-  width: 12vw;
-  height: 12vw;
-  line-height: 12vw;
-  background-color: var(--color-yellow);
-  text-align: center;
-  margin-bottom: 2vw;
+.wrap-talk {
   font-size: 25px;
   text-transform: uppercase;
-  font-family: 'Lato';
   color: var(--color-white);
+  margin-bottom: 100px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid var(--color-green);
+  position: relative;
+}
+
+.talk {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.talk-speaker {
+  float: left;
+  margin-right: 20px;
+  text-align: center;
+}
+.talk-speaker-social {
+  font-size: .6em;
+}
+
+.talk-time {
+  background-color: var(--color-green);
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 1em;
+  transform: translateX(-10px);
+  border-radius: 2em;
+  text-align: center;
+}
+
+.talk-title {
+  margin-bottom: 10px;
+}
+
+.talk-description {
+  text-transform: none;
+  height: 14.4em;
+  font-size: .8em;
+}
+
+.talk-slide {
+  text-align: right;
 }

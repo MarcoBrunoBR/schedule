@@ -1,7 +1,13 @@
 :root{
+  --color-black: #000;
+  --color-black-ligth: #121212;
   --color-purple: #DA83F7;
   --color-yellow: #FBC54C;
-  --color-red: #FF685C;
-  --color-green: #FF685C;
+  --color-call-to-action: rgba(255, 104, 92, .9);
+  --color-call-to-action-hover: rgba(255, 104, 92, 1);
+  --color-green: #7BE473;
+  --color-link: #49E7FF;
+  --color-blue: #58A9F3;
+  --color-blue-light: rgba(88, 169, 243, .55);
   --color-white: #FFF;
 }

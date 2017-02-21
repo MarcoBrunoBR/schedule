@@ -1,0 +1,81 @@
+.menuTalk {
+  position: absolute;
+  bottom: -26px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.menuTalk-item path {
+  fill: var(--color-black-ligth);
+  transition: 100ms fill linear;
+  will-change: fill;
+}
+
+.menuTalk-item:hover path {
+  fill: var(--color-black);
+}
+
+.menuTalk-item-action {
+  display: block;
+  padding: 10px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: var(--color-green);
+  transition: 100ms transform linear;
+  will-change: transform;
+  display: block;
+  position: absolute;
+  z-index: 2;
+  left: 32px;
+  top: 2px;
+  transition: 150ms 300ms opacity linear;
+}
+.menuTalk-item-action_isDisable {
+  opacity: 0;
+  transition: 150ms opacity linear;
+}
+
+.menuTalk-item-action:hover {
+  transform: scale(1.05);
+}
+
+.menuTalk-subItem-item {
+  display: inline-block;
+  border-radius: 30px;
+  width: 55px;
+  transition: 300ms transform linear, 300ms 150ms width linear;
+}
+.menuTalk-subItem-item_cancel {
+  background-color: var(--color-call-to-action);
+  transform: translateX(30px);
+}
+.menuTalk-subItem-item_salve {
+  background-color: var(--color-green);
+  transform: translateX(-30px);
+}
+.menuTalk-subItem_isActive .menuTalk-subItem-item {
+  transform: translateX(0);
+  width: auto;
+  transition: 300ms transform linear, 300ms 150ms width linear;
+}
+.menuTalk-subItem_isActive .menuTalk-subItem-item_cancel {
+  width: 192px;
+}
+.menuTalk-subItem_isActive .menuTalk-subItem-item_salve {
+  width: 135px;
+}
+.menuTalk-subItem-item a {
+  display: block;
+  padding: 10px 30px;
+  height: 35px;
+  line-height: 36px;
+  color: var(--color-white);
+  text-align: center;
+  opacity: 0;
+  transition: 150ms opacity linear;
+}
+.menuTalk-subItem_isActive a {
+  opacity: 1;
+  transition: 150ms 350ms opacity linear;
+}

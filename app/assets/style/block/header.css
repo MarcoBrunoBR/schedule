@@ -1,10 +1,14 @@
 .header {
-  background-color: #000;
-  border-bottom: 4px solid var(--color-purple);
+  background-color: var(--color-black);
+  border-bottom: 2px solid var(--color-purple);
   padding-top: 1em;
   padding-bottom: 1em;
-  margin-bottom: 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 5;
 }
 .header-logo {
-  width: 200px;
+  width: 120px;
 }

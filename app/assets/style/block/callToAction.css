@@ -1,0 +1,18 @@
+.callToAction {
+  background-color: var(--color-call-to-action);
+  display: inline-block;
+  text-transform: none;
+  font-weight: lighter;
+  height: 65px;
+  line-height: 65px;
+  padding-left: 15px;
+  padding-right: 15px;
+  min-width: 100px;
+  text-align: center;
+
+  transition: 200ms background-color linear;
+}
+
+.callToAction:hover {
+  background-color: var(--color-call-to-action-hover);
+}

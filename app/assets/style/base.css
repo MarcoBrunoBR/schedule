@@ -1,3 +1,13 @@
+body {
+  padding-top: 90px; /*Por causa do header fixed*/
+  font-family: 'Lato';
+}
+
+a:not(.callToAction) {
+  color: var(--color-link);
+  text-decoration: none;
+}
+
 .container {
   padding: 0 10%;
 }
